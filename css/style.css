@@ -85,6 +85,10 @@ body {
   color: white;
 }
 
+.branding-container a {
+  color: inherit;
+}
+
 .branding-image {
   height: 100vh;
 }
