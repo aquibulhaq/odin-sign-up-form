@@ -1,3 +1,20 @@
+@font-face {
+  font-family: 'norsebold';
+  src: url('../fonts/norse-bold-webfont.woff2') format('woff2'),
+    url('../fonts/norse-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: block;
+}
+
+:root {
+  --odin-font: 'norsebold', 'Times New Roman', Times, serif;
+}
+
 body {
   background-color: beige;
+}
+
+h1 {
+  font-family: var(--odin-font);
 }
