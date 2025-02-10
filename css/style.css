@@ -72,10 +72,12 @@ h6 {
 
 :root {
   --odin-font: 'norsebold', 'Times New Roman', Times, serif;
+  --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 body {
   background-color: beige;
+  font-family: var(--system-ui);
   height: 100vh;
   display: flex;
 }
