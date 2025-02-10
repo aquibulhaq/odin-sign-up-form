@@ -100,6 +100,15 @@ body {
 
 .logo-container {
   top: 10%;
+  font-family: var(--odin-font);
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.logo-image {
+  display: inline;
+  height: 6rem;
+  vertical-align: -1.5rem;
 }
 
 .branding-image-credit {
