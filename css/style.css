@@ -143,6 +143,16 @@ body {
   background-color: white;
 }
 
+.form-fields>input,
+.form-fields>label {
+  display: block;
+}
+
+.form-fields>label {
+  font-size: smaller;
+  text-transform: uppercase;
+}
+
 .submit {
   --submit-color: #596D48;
   background-color: var(--submit-color);
