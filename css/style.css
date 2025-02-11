@@ -107,6 +107,7 @@ body {
   font-family: var(--odin-font);
   font-weight: bold;
   font-size: 5rem;
+  background-color: rgb(0 0 0 / 0.6);
 }
 
 .logo-image {
