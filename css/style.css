@@ -128,6 +128,11 @@ body {
   background-color: #f0f0f0;
 }
 
+.form-text,
+.form-fields {
+  padding: 1.5rem 2in 1.5rem 1.5rem;
+}
+
 .large {
   font-size: 1.5rem;
   font-weight: 600;
