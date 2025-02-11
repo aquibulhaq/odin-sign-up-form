@@ -143,14 +143,25 @@ body {
   background-color: white;
 }
 
-.form-fields>input,
-.form-fields>label {
+.form-fields input,
+.form-fields label {
   display: block;
 }
 
-.form-fields>label {
+.form-fields label {
   font-size: smaller;
   text-transform: uppercase;
+}
+
+.form-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 100px;
 }
 
 .submit {
