@@ -148,6 +148,20 @@ body {
   display: block;
 }
 
+.form-fields input {
+  outline: none;
+  border: 2px solid #E5E7EB;
+}
+
+.form-fields input:invalid {
+  border: 2px solid red;
+}
+
+.form-fields input:focus {
+  border: 2px solid blue;
+  box-shadow: 4px 4px 8px rgb(75% 75% 75%);
+}
+
 .form-fields label {
   font-size: smaller;
   text-transform: uppercase;
